@@ -10,7 +10,7 @@ const alterFile = (file) => {
     .then(data => {
       writeFileWrapper(file, caps(data));
     })
-    .then((file) => {
+    .then(() => {
       let message = {
         name: 'save',
         message: `File saved!`,
