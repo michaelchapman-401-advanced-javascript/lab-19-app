@@ -62,6 +62,6 @@ let writeFileWrapper = (file, text) => {
 let file = process.argv.slice(2).shift();
 alterFile(file);
 
-module.exports = exports = {readFileWrapper, caps, writeFileWrapper};
+module.exports = exports = {alterFile, readFileWrapper, caps, writeFileWrapper};
 
 
