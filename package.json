@@ -4,7 +4,7 @@
   "description": "Events Lab",
   "main": "app.js",
   "scripts": {
-    "start": "node server.js & && node logger.js & && node app.js &",
+    "start": "node app.js",
     "test": "jest --verbose --coverage",
     "lint": "eslint --fix \"**/*.js\""
   },
